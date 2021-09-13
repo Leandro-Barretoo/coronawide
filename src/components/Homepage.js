@@ -1,11 +1,11 @@
 import './Homepage.css';
 import Continent from './Continent';
-import africa from '../assets/africa.png';
-import europe from '../assets/europe.png';
-import asia from '../assets/asia.png';
-import northAmerica from '../assets/americanorte.png';
-import southAmerica from '../assets/americasul.png';
-import australia from '../assets/australia.png';
+import africa from '../assets/africablue.png';
+import europe from '../assets/europeblue.png';
+import asia from '../assets/asiablue.png';
+import northAmerica from '../assets/northamericablue.png';
+import southAmerica from '../assets/southamericablue.png';
+import australia from '../assets/australiablue.png';
 
 const Homepage = () => (
   <div className="Continents-Container">

@@ -5,7 +5,7 @@
 }
 
 .Continent-Card:nth-child(odd) {
-  background-color: #378ac8;
+  background-color: #5789e6;
   flex-direction: row-reverse;
 }
 
