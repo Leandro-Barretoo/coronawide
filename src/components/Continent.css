@@ -1,0 +1,31 @@
+.Continent-Card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Continent-Card:nth-child(odd) {
+  background-color: #378ac8;
+  flex-direction: row-reverse;
+}
+
+.Continent-Name {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Cont-Img {
+  width: 6em;
+  height: auto;
+  padding: 20px;
+}
+
+.Img-Cont {
+  flex: 1;
+}
+
+.Name-Cont {
+  flex: 1;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.Continents-Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #3751c8;
+}

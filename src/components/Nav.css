@@ -1,0 +1,12 @@
+.Navigation {
+  background-color: #3751c8;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.Logo {
+  display: block;
+  font-size: 0.9em;
+}
