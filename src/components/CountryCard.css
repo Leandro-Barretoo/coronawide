@@ -1,0 +1,7 @@
+.CountryCard-Container {
+  background-color: #4369b2;
+}
+
+.CountryCard-Container:nth-child(even) {
+  background-color: #5789e6;
+}

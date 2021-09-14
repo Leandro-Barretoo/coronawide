@@ -1,6 +1,6 @@
 const ADD_EUROPE = 'coronaWide/covid/ADD_EUROPE';
 
-const initialState = [];
+const initialState = [{ countries: [] }];
 
 export const addEurope = (payload) => ({
   type: ADD_EUROPE,
