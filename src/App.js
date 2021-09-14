@@ -18,6 +18,22 @@ const App = () => (
         <Nav />
         <Countrypage />
       </Route>
+      <Route path="/africa">
+        <Nav />
+        <Countrypage />
+      </Route>
+      <Route path="/asia">
+        <Nav />
+        <Countrypage />
+      </Route>
+      <Route path="/northamerica">
+        <Nav />
+        <Countrypage />
+      </Route>
+      <Route path="/southamerica">
+        <Nav />
+        <Countrypage />
+      </Route>
     </Switch>
   </Router>
 );
