@@ -11,27 +11,27 @@ const App = () => (
   <Router>
     <Switch>
       <Route exact path="/">
-        <Nav />
+        <Nav display="none" />
         <Homepage />
       </Route>
       <Route path="/europe">
-        <Nav />
+        <Nav display="block" route="/" />
         <Countrypage />
       </Route>
       <Route path="/africa">
-        <Nav />
+        <Nav display="block" route="/" />
         <Countrypage />
       </Route>
       <Route path="/asia">
-        <Nav />
+        <Nav display="block" route="/" />
         <Countrypage />
       </Route>
       <Route path="/northamerica">
-        <Nav />
+        <Nav display="block" route="/" />
         <Countrypage />
       </Route>
       <Route path="/southamerica">
-        <Nav />
+        <Nav display="block" route="/" />
         <Countrypage />
       </Route>
     </Switch>

@@ -1,7 +1,11 @@
 .CountryCard-Container {
-  background-color: #4369b2;
+  background-color: #5789e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.CountryCard-Container:nth-child(even) {
-  background-color: #5789e6;
+.CountryCard-Name {
+  color: #fff;
+  font-weight: bold;
 }

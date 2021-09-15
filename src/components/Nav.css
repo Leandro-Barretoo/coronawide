@@ -2,11 +2,30 @@
   background-color: #4369b2;
   color: #fff;
   display: flex;
-  justify-content: center;
   padding: 5px;
 }
 
-.Logo {
+.Logo,
+.Back {
   display: block;
   font-size: 0.9em;
+}
+
+.Logo {
+  flex: 2;
+  padding-left: 11px;
+}
+
+.Back {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.block {
+  flex: 1;
+}
+
+.none {
+  display: none;
 }
